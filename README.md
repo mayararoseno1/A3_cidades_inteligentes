@@ -1,3 +1,3 @@
 # A3_cidades_inteligentes
 
-equipe: Mayara, Sarah e Aline
+Equipe: Mayara Roseno, Sarah Rafaella, Aline Vitoriano e Lucas Brasileiro
