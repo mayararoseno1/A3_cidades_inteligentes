@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar Artesão</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="../Projeto site/project-folder/static/style.css">
+
 </head>
 <body>
     <header>
@@ -22,6 +23,12 @@
 
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
+
+            <label for="craft">O que você faz?</label>
+            <input type="text" id="craft" name="craft" required>
+
+            <label for="desired_material">Material Desejado:</label>
+            <input type="text" id="desired_material" name="desired_material" required>
 
             <button type="submit">Cadastrar</button>
         </form>

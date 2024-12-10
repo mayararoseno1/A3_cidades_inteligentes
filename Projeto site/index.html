@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Artesão</title>
+    <link rel="stylesheet" href="../Projeto site/project-folder/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Conectando Artesãos a Materiais Recicláveis</h1>
+        <nav>
+            <a href="/">Página Inicial</a>
+            <a href="/register">Cadastrar Artesão</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Artesãos Cadastrados</h2>
+            {% if artisans %}
+                <ul>
+                    {% for artisan in artisans %}
+                        <li>
+                            <strong>Nome:</strong> {{ artisan.name }} <br>
+                            <strong>O que faz:</strong> {{ artisan.craft }} <br>
+                            <strong>Material desejado:</strong> {{ artisan.desired_material }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>Nenhum artesão cadastrado ainda.</p>
+            {% endif %}
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Projeto Artesão</p>
+    </footer>
+</body>
+</html>
+
