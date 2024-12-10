@@ -10,7 +10,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background: linear-gradient(90deg, #c10c61, #c50e64);
+    background: linear-gradient(90deg, #0695a4, #046f89);
     color: white;
     padding: 20px;
     text-align: center;
@@ -34,13 +34,13 @@ section {
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
-    background: white;
+    background: rgb(226, 240, 242);
     border-radius: 12px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1, h2 {
-    color: #c57dad;
+    color: #2b061f;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -87,12 +87,12 @@ form input, form textarea, form button {
 }
 
 form input:focus, form textarea:focus {
-    border-color: #b60165;
+    border-color: #1caea6;
     outline: none;
 }
 
 form button {
-    background: #cc0041;
+    background: #027489;
     color: white;
     border: none;
     font-weight: bold;
@@ -101,16 +101,16 @@ form button {
 }
 
 form button:hover {
-    background: #80003a;
+    background: #008071;
 }
 
 /* Rodapé */
 footer {
     text-align: center;
     padding: 15px;
-    background: #870135;
+    background: #046f89;
     color: white;
-    margin-top: 20px;
+    margin-top: 270px;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 

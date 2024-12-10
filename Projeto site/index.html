@@ -18,22 +18,23 @@
     <main>
         <section>
             <h2>Artesãos Cadastrados</h2>
-            {% if artisans %}
+            
                 <ul>
-                    {% for artisan in artisans %}
+                    
                         <li>
-                            <strong>Nome:</strong> {{ artisan.name }} <br>
-                            <strong>O que faz:</strong> {{ artisan.craft }} <br>
-                            <strong>Material desejado:</strong> {{ artisan.desired_material }}
+                            <strong>Nome:</strong> <br>
+                            <strong>O que faz:</strong> <br>
+                            <strong>Material desejado:</strong> 
                         </li>
-                    {% endfor %}
+                    
                 </ul>
-            {% else %}
+        
                 <p>Nenhum artesão cadastrado ainda.</p>
-            {% endif %}
+            
         </section>
     </main>
 
+    
     <footer>
         <p>&copy; 2024 - Projeto Artesão</p>
     </footer>
