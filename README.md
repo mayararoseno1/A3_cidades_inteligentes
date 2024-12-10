@@ -1,8 +1,15 @@
 # A3_cidades_inteligentes
-<<<<<<< HEAD
-Este projeto é sobre Cidades Inteligentes
-alteração 
-=======
 
-Equipe: Mayara Roseno, Sarah Rafaella, Aline Vitoriano e Lucas Brasileiro
->>>>>>> a48faccfff202123ba756a43efc019627fd0236e
+
+## Sobre o projeto:
+
+Este projeto trata-se de um sistema para captação de materiais recicláveis onde artesões terão acessibilidade a matérias primas e poderão utilizar no seu projeto/trabalho.
+
+## Equipe:
+ 
+ - Aline Vitoriano
+ - Lucas Brasileiro
+ - Mayara Roseno
+ - Sarah Rafaella
+
+
